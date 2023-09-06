@@ -7,11 +7,21 @@ public class Lesson_2_1 {
                 System.out.print("What is your name? ");
                 String name = input.nextLine();
 
-                String firstName = "Bob";
-                System.out.println(firstName);
+                String firstName1 = "Bob";
+                System.out.println(firstName1);
 
-                firstName = "Mary";
-                System.out.println(firstName);
+                firstName1 = "Mary";
+                System.out.println(firstName1);
+
+                Scanner input1 = new Scanner(System.in);
+                System.out.print("What is your first name? ");
+                String firstName = input1.nextLine();
+
+                System.out.print("What is your last name? ");
+                String lastName = input1.nextLine();
+
+                System.out.println("Hello " + firstName + " " + lastName);
+
 
         }
 }
