@@ -23,5 +23,6 @@ public class Lesson_2_1 {
                 System.out.println("Hello " + firstName + " " + lastName);
 
 
+
         }
 }
